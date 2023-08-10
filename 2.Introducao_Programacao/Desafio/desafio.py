@@ -36,7 +36,9 @@ try:
             remove_produto(produtos)
         elif opt == 4:
             verificador = True
+        else:
+            print("Opção errada, por favor, digite novamente.")
 
 
 except:
-    print("Opção errada, por favor digite novamente")
+    print("Opção errada, por favor digite um número.")
