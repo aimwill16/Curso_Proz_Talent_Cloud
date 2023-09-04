@@ -1,0 +1,45 @@
+.menu {
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+#ul {
+  list-style: none;
+  display: flex;
+}
+
+#li {
+  margin-right: 10px;
+}
+
+.elem1 {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  background-color: darkcyan;
+}
+
+.elem2{
+  display: flex;
+  background-color: red;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.5px
+}
+
+.footer{
+  display: flex;
+  list-style: none;
+  padding-left: 0%;
+  flex-direction: column;
+}
+
+
